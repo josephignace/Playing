@@ -16,4 +16,11 @@ actions:
     needs: [generate_study_population]
     outputs:
       moderately_sensitive:
-        cohort: output/Descriptive-Age.png     
+        cohort: output/Descriptive-Age.png
+#
+#    describe:
+#    run: r:latest analysis/Report.R
+#    needs: [generate_study_population]
+#    outputs:
+#      moderately_sensitive:
+#        cohort: output/Descriptive-Sex.png      
